@@ -1,0 +1,16 @@
+\frametitle{}
+\vfill
+  \centering
+  \begin{lstlisting}[language=Python]
+  def residual(x, t, kappa):
+    # Computation of the time-derivative.
+    u_t = tf.gradients(u, t)[0]
+    # Computation of the first spatial derivative.
+    u_x = tf.gradients(u, x)[0]
+    # Computation of the second spatial derivative.
+    u_xx = tf.gradients(u_x, x)[0]
+    # Definition of the residual.
+    r = u_t - kappa*u_xx
+    return r
+  \end{lstlisting}
+  \vfill
