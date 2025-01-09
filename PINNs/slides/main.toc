@@ -1,7 +1,0 @@
-\babel@toc {english}{}\relax 
-\beamer@sectionintoc {1}{Introduction}{9}{0}{1}
-\beamer@sectionintoc {2}{Kalman smoothing}{10}{0}{2}
-\beamer@sectionintoc {3}{Standard Scientific Computing}{17}{0}{3}
-\beamer@sectionintoc {4}{Physics-Informed Neural Nets}{25}{0}{4}
-\beamer@sectionintoc {5}{Limitations of PINNs}{45}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{53}{0}{6}
